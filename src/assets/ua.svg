@@ -57,28 +57,30 @@
  </path>
  <!-- Region titles -->
  <text x="110" y="120" aria-label="Волинська" class="map-label" font-size="18">Волинська</text>
- <text x="210" y="85" aria-label="Волинська" class="map-label" font-size="16">Рівненська</text>
- <text x="295" y="155" aria-label="Волинська" class="map-label" font-size="16">Житомирська</text>
- <text x="420" y="235" aria-label="Волинська" class="map-label" font-size="16">Київська</text>
- <text x="495" y="100" aria-label="Волинська" class="map-label" font-size="16">Чернігівська</text>
- <text x="635" y="140" aria-label="Волинська" class="map-label" font-size="18">Сумська</text>
- <text x="600" y="235" aria-label="Волинська" class="map-label" font-size="18">Полтавська</text>
- <text x="755" y="245" aria-label="Волинська" class="map-label" font-size="18">Харківська</text>
- <text x="892" y="285" aria-label="Волинська" class="map-label" font-size="18">Луганська</text>
- <text x="465" y="290" aria-label="Волинська" class="map-label" font-size="16">Черкаська</text>
- <text x="325" y="315" aria-label="Волинська" class="map-label" font-size="16">Вінницька</text>
- <text x="233" y="275" aria-label="Волинська" class="map-label" font-size="12">Хмельницька</text>
- <text x="150" y="265" aria-label="Волинська" class="map-label" font-size="10">Тернопільська</text>
- <text x="161" y="378" aria-label="Волинська" class="map-label" font-size="10">Чернівецька</text>
- <text x="25" y="360" aria-label="Волинська" class="map-label" font-size="14">Закарпатська</text>
- <text x="75" y="220" aria-label="Волинська" class="map-label" font-size="16">Львівська</text>
- <text x="95" y="330" aria-label="Волинська" class="map-label" font-size="10">Івано-Франківська</text>
- <text x="385" y="545" aria-label="Волинська" class="map-label" font-size="12">Одеська</text>
- <text x="490" y="345" aria-label="Волинська" class="map-label" font-size="16">Кіровоградська</text>
- <text x="490" y="430" aria-label="Волинська" class="map-label" font-size="16">Миколаївська</text>
- <text x="642" y="355" aria-label="Волинська" class="map-label" font-size="16">Дніпропетровська</text>
- <text x="830" y="380" aria-label="Волинська" class="map-label" font-size="16">Донецька</text>
- <text x="715" y="445" aria-label="Волинська" class="map-label" font-size="16">Запорізька</text>
- <text x="590" y="500" aria-label="Волинська" class="map-label" font-size="16">Херсонська</text>
- <text x="650" y="600" aria-label="Волинська" class="map-label" font-size="16">Крим</text>
+ <text x="210" y="85" aria-label="Рівненська" class="map-label" font-size="16">Рівненська</text>
+ <text x="295" y="155" aria-label="Житомирська" class="map-label" font-size="16">Житомирська</text>
+ <text x="420" y="235" aria-label="Київська" class="map-label" font-size="16">Київська</text>
+ <text x="495" y="100" aria-label="Чернігівська" class="map-label" font-size="16">Чернігівська</text>
+ <text x="635" y="140" aria-label="Сумська" class="map-label" font-size="18">Сумська</text>
+ <text x="600" y="235" aria-label="Полтавська" class="map-label" font-size="18">Полтавська</text>
+ <text x="755" y="245" aria-label="Харківська" class="map-label" font-size="18">Харківська</text>
+ <text x="892" y="285" aria-label="Луганська" class="map-label" font-size="18">Луганська</text>
+ <text x="465" y="290" aria-label="Черкаська" class="map-label" font-size="16">Черкаська</text>
+ <text x="325" y="315" aria-label="Вінницька" class="map-label" font-size="16">Вінницька</text>
+ <text x="233" y="275" aria-label="Хмельницька" class="map-label" font-size="12">Хмельницька</text>
+ <text x="150" y="265" aria-label="Тернопільська" class="map-label" font-size="10">Тернопільська</text>
+ <text x="161" y="378" aria-label="Чернівецька" class="map-label" font-size="10">Чернівецька</text>
+ <text x="25" y="360" aria-label="Закарпатська" class="map-label" font-size="14">Закарпатська</text>
+ <text x="75" y="220" aria-label="Львівська" class="map-label" font-size="16">Львівська</text>
+ <text x="95" y="330" aria-label="Івано" class="map-label" font-size="10">Івано-Франківська</text>
+ <text x="385" y="545" aria-label="Одеська" class="map-label" font-size="12">Одеська</text>
+ <text x="490" y="345" aria-label="Кіровоградська" class="map-label" font-size="16">Кіровоградська</text>
+ <text x="490" y="430" aria-label="Миколаївська" class="map-label" font-size="16">Миколаївська</text>
+ <text x="642" y="355" aria-label="Дніпропетровська" class="map-label" font-size="16">Дніпропетровська</text>
+ <text x="830" y="380" aria-label="Донецька" class="map-label" font-size="16">Донецька</text>
+ <text x="715" y="445" aria-label="Запорізька" class="map-label" font-size="16">Запорізька</text>
+ <text x="590" y="500" aria-label="Херсонська" class="map-label" font-size="16">Херсонська</text>
+ <text x="650" y="600" aria-label="Крим" class="map-label" font-size="16">Крим</text>
+ <!-- Cities -->
+ <text x="455" y="173" aria-label="Київ" class="map-label" font-size="10">Київ</text>
 </svg>

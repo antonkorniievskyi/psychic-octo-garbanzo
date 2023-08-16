@@ -16,7 +16,7 @@ function App() {
   return (
     <section>
       <div>
-        <UkraineMap onClick={handleClick} />
+        <UkraineMap onClick={handleClick} className='map' />
       </div>
       <input value={color} type='color' onChange={({ target }) => setColor(target.value)} />
       <p className='text'>

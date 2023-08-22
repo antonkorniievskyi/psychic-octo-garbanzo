@@ -15,8 +15,22 @@
 }
 
 .map-label {
-  stroke-opacity: .2;
-  fill: rgba(255, 255, 255, 0.7);
+  stroke-opacity: 0;
+  fill: #000;
   pointer-events: none;
   user-select: none;
+}
+
+.panel {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-color {
+  width: 24px;
+  height: 24px;
+  border: 1px solid;
+  border-radius: 50%;
 }

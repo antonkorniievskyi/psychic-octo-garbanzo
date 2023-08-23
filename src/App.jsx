@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { ReactComponent as UkraineMap } from './assets/ua.svg';
-import './App.css'
+import './index.css'
 
 const presetColors = [
-  "#dc0000",
-  "#ff5252",
-  "#ffcdd2",
-  "#663399",
+  '#dc0000',
+  '#ff5252',
+  '#ffcdd2',
+  '#663399',
 ]
 
 function App() {
@@ -21,20 +21,22 @@ function App() {
   };
 
   return (
-    <section>
-      <div>
-        <UkraineMap onClick={handleClick} className='map' />
-      </div>
-      <div className='panel'>
-        {presetColors.map((hexColor) => (
-          <button style={{ background: hexColor }} className='btn-color' key={hexColor} onClick={() => setColor(hexColor)} />
-        ))}
-        <input value={color} type='color' onChange={({ target }) => setColor(target.value)} />
-      </div>
-      <p className='text'>
-        anton.korniievskyi
-      </p>
-    </section>
+    <main className='h-screen'>
+      <section className='flex flex-col h-full pt-8'>
+        <div className='container mx-auto w-full'>
+          <UkraineMap onClick={handleClick} className='w-full stroke-[1.25]' />
+        </div>
+        <div className='flex justify-between mt-auto px-2'>
+          <div className='flex gap-3'>
+            {presetColors.map((hexColor) => (
+              <button style={{ background: hexColor }} className='h-6 w-6' key={hexColor} onClick={() => setColor(hexColor)} />
+            ))}
+          </div>
+          <input value={color} type='color' onChange={({ target }) => setColor(target.value)} />
+        </div>
+        <p className='py-2 text-xs text-center'>anton.korniievskyi</p>
+      </section>
+    </main>
   );
 }
 

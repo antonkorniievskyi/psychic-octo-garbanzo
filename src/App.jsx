@@ -29,7 +29,7 @@ function App() {
         <div className='flex justify-between mt-auto px-2'>
           <div className='flex gap-3'>
             {presetColors.map((hexColor) => (
-              <button style={{ background: hexColor }} className='h-6 w-6' key={hexColor} onClick={() => setColor(hexColor)} />
+              <button style={{ background: hexColor }} className='h-6 w-6 rounded-full border' key={hexColor} onClick={() => setColor(hexColor)} />
             ))}
           </div>
           <input value={color} type='color' onChange={({ target }) => setColor(target.value)} />
